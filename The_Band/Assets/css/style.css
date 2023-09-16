@@ -1,0 +1,127 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#header {
+    height: 46px;
+    background-color: #000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+#nav {
+    display: inline-block;
+}
+
+#nav>li {
+    display: inline-block;
+}
+
+#nav li {
+    position: relative;
+    list-style-type: none;
+}
+
+#nav>li>a {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+#nav li a {
+    line-height: 46px;
+    padding: 0 24px;
+    display: block;
+    text-decoration: none;
+}
+
+#nav>li:hover>a,
+#nav .subnav li:hover {
+    background-color: #ccc;
+    color: #000;
+}
+
+#nav li:hover .subnav {
+    display: block;
+}
+
+#nav .subnav {
+    min-width: 160px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    display: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#nav .subnav a {
+    padding: 0 12px;
+    color: #000;
+}
+
+
+/* arrow nav */
+
+#nav .nav-arrow {
+    font-size: 12px;
+}
+
+
+/* search */
+
+#header .search-btn {
+    float: right;
+    line-height: 46px;
+    padding: 0 23px;
+    cursor: pointer;
+}
+
+#header .search-icon {
+    color: #fff;
+}
+
+#header .search-btn:hover {
+    color: #fff;
+    background-color: #f44336;
+}
+
+#slider {
+    margin-top: 46px;
+    padding-top: 50%;
+    background: url(/The_Band/Assets/image/slider1.jpg) top center / cover no-repeat;
+    position: relative;
+}
+
+#slider .content-slider {
+    position: absolute;
+    bottom: 45px;
+    color: #fff;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    text-align: center;
+}
+
+.slider-heading {
+    margin: 10px 0;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.slider-desc {
+    margin: 15px 0;
+    font-weight: 800;
+    font-size: 15px;
+}
+
+#content {}
+
+#footer {}
