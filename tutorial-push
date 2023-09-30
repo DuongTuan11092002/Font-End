@@ -1,0 +1,6 @@
+cách push 
+1. git pull origin main lấy về 
+2. cập nhật
+3. git add .
+4. git commit -m "title"
+5. git push origin main
